@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cute"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="143dp"
+    tools:layout_editor_absoluteY="-105dp">
+
+    <LinearLayout
+        android:layout_width="664dp"
+        android:layout_height="283dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496">
+
+        <LinearLayout
+            android:layout_width="522dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="521dp"
+                android:layout_height="225dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_a"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/a"
+                        android:tag="1"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_b"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/b"
+                        android:tag="2"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_c"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/c"
+                        android:tag="3"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_d"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/d"
+                        android:tag="4"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_e"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/e"
+                        android:tag="5"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_f"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/f"
+                        android:tag="6"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_g"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/g"
+                        android:tag="7"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_h"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/h"
+                        android:tag="8"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="43dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_i"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/i"
+                        android:tag="9"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_j"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/j"
+                        android:tag="10"
+                        tools:ignore="DuplicateIds,DuplicateSpeakableTextCheck,ImageContrastCheck,MissingConstraints,TouchTargetSizeCheck,UsingOnClickInXml" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_k"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/k"
+                        android:tag="11"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="43dp"
+                    android:layout_height="202dp"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_l"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/l"
+                        android:tag="12"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_m"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/m"
+                        android:tag="13"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_n"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/n"
+                        android:tag="14"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_o"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/o"
+                        android:tag="15"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_p"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/p"
+                        android:tag="16"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_q"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/q"
+                        android:tag="17"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_r"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/r"
+                        android:tag="18"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="43dp"
+                    android:layout_height="202dp"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_s"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/s"
+                        android:tag="19"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_t"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/t"
+                        android:tag="20"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_u"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/u"
+                        android:tag="21"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="43dp"
+                    android:layout_height="202dp"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_v"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/v"
+                        android:tag="35"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_w"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/w"
+                        android:tag="36"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_x"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/x"
+                        android:tag="37"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_y"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/y"
+                        android:tag="22"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_z"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/z"
+                        android:tag="23"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_aa"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/aa"
+                        android:tag="24"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ab"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ab"
+                        android:tag="25"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ac"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ac"
+                        android:tag="26"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ad"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ad"
+                        android:tag="27"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ae"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ae"
+                        android:tag="28"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_af"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/af"
+                        android:tag="29"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ag"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ag"
+                        android:tag="30"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ah"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ah"
+                        android:tag="31"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ai"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ai"
+                        android:tag="32"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton_aj"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/aj"
+                        android:tag="33"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="48dp"
+                    android:layout_height="203dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButton_ak"
+                        android:layout_width="43dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/AShow"
+                        android:onClick="push"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ak"
+                        android:tag="34"
+                        tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="328dp"
+                android:layout_height="56dp"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_al"
+                    android:layout_width="43dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/AShow"
+                    android:onClick="push"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/al"
+                    android:tag="38"
+                    tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_am"
+                    android:layout_width="43dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/AShow"
+                    android:onClick="push"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/am"
+                    android:tag="39"
+                    tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_an"
+                    android:layout_width="43dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/AShow"
+                    android:onClick="push"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/an"
+                    android:tag="40"
+                    tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_ao"
+                    android:layout_width="43dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/AShow"
+                    android:onClick="push"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ao"
+                    android:tag="41"
+                    tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_ap"
+                    android:layout_width="43dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/AShow"
+                    android:onClick="push"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ap"
+                    android:tag="42"
+                    tools:ignore="MissingConstraints,UsingOnClickInXml,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/ButtonView1"
+                    android:layout_width="64.5dp"
+                    android:layout_height="75dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="check"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/nu"
+                    android:tag="1"
+                    tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/ButtonView2"
+                    android:layout_width="64.5dp"
+                    android:layout_height="75dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="check"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/nu"
+                    android:tag="2"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/ButtonView3"
+                    android:layout_width="64.5dp"
+                    android:layout_height="72dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="check"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/nu"
+                    android:tag="3"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <ImageButton
+                    android:id="@+id/ReadPhoneticButton"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo"
+                    android:onClick="reader"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/read_phonetic"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,UsingOnClickInXml" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="69dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+                <ImageButton
+                    android:id="@+id/ButtonView4"
+                    android:layout_width="64.5dp"
+                    android:layout_height="75dp"
+                    android:contentDescription="@string/todo"
+                    android:onClick="check"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/al"
+                    android:tag="4"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp" />
+
+                <ImageButton
+                    android:id="@+id/clearButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/todo"
+                    android:onClick="clear"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/clear"
+                    tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="419dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="79dp"
+        android:layout_height="76dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
